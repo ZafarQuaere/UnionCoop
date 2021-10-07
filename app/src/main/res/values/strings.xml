@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">UnionCoop</string>
+    <string name="something_went_wrong_msg">Something went wrong, \nPlease click here to retry</string>
+</resources>
