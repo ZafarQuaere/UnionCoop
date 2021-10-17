@@ -8,7 +8,8 @@ import java.util.concurrent.TimeUnit
 
 object ServiceBuilder {
 
-    private const val baseUrl = "http://api.nytimes.com/svc/mostpopular/v2/mostviewed/all- sections/7.json?"
+    private const val baseUrl = "http://api.nytimes.com/svc/mostpopular/v2/mostviewed/all-sections/7.json/"
+//    private const val baseUrl = "https://api.nytimes.com/svc/mostpopular/v2/mostviewed/all-sections/7.json?api-key="
 
     private val okHttpClient = OkHttpClient.Builder().connectTimeout(100,TimeUnit.SECONDS).
                                                 readTimeout(100,TimeUnit.SECONDS)
