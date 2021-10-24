@@ -1,6 +1,5 @@
 package com.example.unioncoop.model
 
-import android.icu.text.CaseMap
 import androidx.annotation.Keep
 import com.google.gson.annotations.SerializedName
 
